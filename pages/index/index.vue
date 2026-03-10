@@ -70,8 +70,8 @@
 				// Android 设备或 Windows 电脑 - 自动生成 APK 二维码
 				this.generateQRCode('apk');
 			}
-			downloadLinks.ios = 'https://apps.apple.com/cn/app/crushcheck/id6755988509?scene='+ e.scene
-			downloadLinks.apk = 'crushcheck://pages/index/index?scene='+ e.scene
+		this.downloadLinks.ios = 'https://apps.apple.com/cn/app/crushcheck/id6755988509?scene='+ e.scene
+			this.downloadLinks.apk = 'crushcheck://pages/index/index?scene='+ e.scene
 		},
 		methods: {
 			generateQRCode(type) {
