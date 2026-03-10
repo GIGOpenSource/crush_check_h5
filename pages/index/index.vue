@@ -52,7 +52,7 @@
 				canvasHeight: 300,
 				// 三个下载链接（写死的）
 				downloadLinks: {
-					ios: 'crushcheck://pages/index/index',
+					ios: 'https://apps.apple.com/cn/app/crushcheck/id6755988509',
 					apk: 'https://www.crashcheck.net/apk/app.apk',
 					google: 'https://open.weixin.qq.com/'
 				}
@@ -70,7 +70,7 @@
 				// Android 设备或 Windows 电脑 - 自动生成 APK 二维码
 				this.generateQRCode('apk');
 			}
-			downloadLinks.ios = 'crushcheck://pages/index/index?scene='+ e.scene
+			downloadLinks.ios = 'https://apps.apple.com/cn/app/crushcheck/id6755988509?scene='+ e.scene
 			downloadLinks.apk = 'crushcheck://pages/index/index?scene='+ e.scene
 		},
 		methods: {
